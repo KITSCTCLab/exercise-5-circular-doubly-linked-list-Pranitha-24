@@ -105,7 +105,7 @@ operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
 input_data = input()
-data = [
+data = []
 iteration_count = 0
 
 for item in input_data.split(', '):
